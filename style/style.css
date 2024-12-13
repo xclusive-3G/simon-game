@@ -1,0 +1,133 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.button {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.btn-shadow {
+    box-shadow: 0 0 15px 5px white;
+}
+
+
+
+/* Global Styles */
+* {
+    background-color: darkblue !important;
+    font-family: "Merriweather", serif !important;
+}
+
+/* Custom Size Class */
+.custom-size {
+    font-size: 60px;
+}
+
+/* Square Button */
+.square-btn {
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 1.2rem !important;
+    border-color: black !important;
+    border-width: 6px;
+}
+
+/* Button Color Classes */
+.btn-red {
+    background-color: #ff4d4d !important;
+    color: white;
+}
+
+.btn-blue {
+    background-color: #4d79ff !important;
+    color: white;
+}
+
+.btn-green {
+    background-color: #4dff4d !important;
+    color: white;
+}
+
+.btn-yellow {
+    background-color: #ffff4d !important;
+    color: black;
+}
+
+/* Mobile Devices (Small) */
+@media (max-width: 375px) {
+    .custom-size {
+        font-size: 14px;
+    }
+
+    .square-btn {
+        width: 120px !important;
+        height: 120px !important;
+        border-radius: 1.2rem !important;
+        border-color: black !important;
+        border-width: 6px;
+    }
+}
+
+/* Small Tablet / Medium Phones */
+@media (max-width: 576px) {
+    .custom-size {
+        font-size: 20px;
+    }
+
+    .square-btn {
+        width: 120px !important;
+        height: 120px !important;
+        border-radius: 1.2rem !important;
+        border-color: black !important;
+        border-width: 6px;
+    }
+}
+
+/* Tablets (Medium Screens) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .custom-size {
+        font-size: 30px;
+    }
+
+    .square-btn {
+        width: 130px !important;
+        height: 130px !important;
+        border-radius: 1.2rem !important;
+        border-color: black !important;
+        border-width: 6px;
+    }
+}
+
+/* Tablets and Small Laptops (Large Screens) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .custom-size {
+        font-size: 40px;
+    }
+
+    .square-btn {
+        width: 140px !important;
+        height: 140px !important;
+        border-radius: 1.2rem !important;
+        border-color: black !important;
+        border-width: 6px;
+    }
+}
+
+/* Mini-Laptops and Desktops (Larger Screens) */
+@media (min-width: 1025px) {
+    .custom-size {
+        font-size: 60px;
+    }
+
+    .square-btn {
+        width: 150px !important;
+        height: 150px !important;
+        border-radius: 1.2rem !important;
+        border-color: black !important;
+        border-width: 6px;
+    }
+}
