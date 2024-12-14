@@ -1,6 +1,6 @@
 const buttons = document.querySelectorAll(".btn");
-let currentButtonIndex = null; // Tracks the currently highlighted button index
-let gameStarted = false; // Tracks whether the game has started
+let currentButtonIndex = null; // checks the currently highlighted button index
+let gameStarted = false; // checks whether the game has started
 let level = 0; // set level to 0
 
 // Function to get a random index that's not the current index
